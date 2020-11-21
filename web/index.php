@@ -21,7 +21,12 @@
 
     <ol> <h3>Links do projeto q podem ser úteis:</h3>
         <li>localhost/<b>gerenciador-panda</b>/web : Pasta base do projeto</li>
-        <li>localhost/gerenciador-panda/index.php</li>
+        <li>localhost/gerenciador-panda/web/caminhosYii.php?r=lot = CRUD tabela "lots"</li>
+        <li>localhost/gerenciador-panda/web/caminhosYii.php?r=item = CRUD tabela "items"</li>
+        <li>localhost/gerenciador-panda/web/caminhosYii.php?r=stock = CRUD tabela "stocks"</li>
+        <li>localhost/gerenciador-panda/web/caminhosYii.php?r=request = CRUD tabela "requests"</li>
+        <li>localhost/gerenciador-panda/web/caminhosYii.php?r=user = CRUD tabela "user"</li>
+        <li>localhost/gerenciador-panda/web/caminhosYii.php?r=sale = CRUD tabela "sale"</li>
     </ol>
     
 </body>
