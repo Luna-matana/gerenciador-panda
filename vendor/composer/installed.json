@@ -1103,17 +1103,17 @@
         },
         {
             "name": "fakerphp/faker",
-            "version": "v1.11.0",
-            "version_normalized": "1.11.0.0",
+            "version": "v1.12.0",
+            "version_normalized": "1.12.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "f228dc5112bafc14c77d40a2acc0c48058e184b0"
+                "reference": "9aa6c9e289860951e6b4d010c7a841802d015cd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/f228dc5112bafc14c77d40a2acc0c48058e184b0",
-                "reference": "f228dc5112bafc14c77d40a2acc0c48058e184b0",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/9aa6c9e289860951e6b4d010c7a841802d015cd8",
+                "reference": "9aa6c9e289860951e6b4d010c7a841802d015cd8",
                 "shasum": ""
             },
             "require": {
@@ -1127,7 +1127,7 @@
                 "ext-intl": "*",
                 "phpunit/phpunit": "^7.5.20 || ^8.5.8 || ^9.4.2"
             },
-            "time": "2020-11-15T20:27:00+00:00",
+            "time": "2020-11-23T09:33:08+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -1152,7 +1152,7 @@
             ],
             "support": {
                 "issues": "https://github.com/FakerPHP/Faker/issues",
-                "source": "https://github.com/FakerPHP/Faker/tree/v1.11.0"
+                "source": "https://github.com/FakerPHP/Faker/tree/v1.12.0"
             },
             "install-path": "../fakerphp/faker"
         },
@@ -4846,17 +4846,17 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.39.2",
-            "version_normalized": "2.0.39.2",
+            "version": "2.0.39.3",
+            "version_normalized": "2.0.39.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "c1d88666f4fc4702af5d492e4c5c35353c9ac6ca"
+                "reference": "7c3b93b57e568509a7cb5cef826d8c424a779f3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/c1d88666f4fc4702af5d492e4c5c35353c9ac6ca",
-                "reference": "c1d88666f4fc4702af5d492e4c5c35353c9ac6ca",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7c3b93b57e568509a7cb5cef826d8c424a779f3f",
+                "reference": "7c3b93b57e568509a7cb5cef826d8c424a779f3f",
                 "shasum": ""
             },
             "require": {
@@ -4872,7 +4872,7 @@
                 "php": ">=5.4.0",
                 "yiisoft/yii2-composer": "~2.0.4"
             },
-            "time": "2020-11-13T10:15:29+00:00",
+            "time": "2020-11-23T19:17:58+00:00",
             "bin": [
                 "yii"
             ],

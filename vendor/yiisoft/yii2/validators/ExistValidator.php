@@ -5,6 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
+
 namespace yii\validators;
 
 use Yii;
@@ -13,7 +14,7 @@ use yii\base\Model;
 use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;
 use yii\db\QueryInterface;
-
+use app\models\DBUser as DBUser;
 /**
  * ExistValidator validates that the attribute value exists in a table.
  *
@@ -255,7 +256,8 @@ class ExistValidator extends Validator
      */
     private function valueExists($targetClass, $query, $value)
     {
-        $db = $targetClass::getDb();
+        //$db = $targetClass::getDb(); Código gerado automaticamente pelo yii
+        $db = DBUser::getDb();
         $exists = false;
 
         if ($this->forceMasterDb && method_exists($db, 'useMaster')) {
@@ -294,7 +296,8 @@ class ExistValidator extends Validator
     protected function createQuery($targetClass, $condition)
     {
         /* @var $targetClass \yii\db\ActiveRecordInterface */
-        $query = $targetClass::find()->andWhere($condition);
+        //$query = $targetClass::find()->andWhere($condition); -------- código gerado pelo yii
+        $query = DBUser::find()->andWhere($condition);
         if ($this->filter instanceof \Closure) {
             call_user_func($this->filter, $query);
         } elseif ($this->filter !== null) {
