@@ -16,6 +16,14 @@ PrincipalAsset::register($this);
 <html lang="<?= Yii::$app->language ?>">
 
 <head>
+<script type="text/javascript">
+    $(document).on("click", "a.expand", function(e) {
+    e.preventDefault();
+    $(this).siblings("ul").slideToggle();
+    });
+</script>
+
+
     <meta charset="<?= Yii::$app->charset ?>" />
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="../assets/img/favicon.ico">
@@ -48,23 +56,56 @@ PrincipalAsset::register($this);
                     </a>
                 </div>
                 <ul class="nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="dashboard.html">
-                            <i class="nc-icon nc-icon nc-paper-2"></i>
-                            <p>Vendas</p>
-                        </a>
-                    </li>
+
+
                     <li>
-                        <a class="nav-link" href="./user.html">
-                            <i class="nc-icon nc-credit-card"></i>
-                            <p>Estoque</p>
+                        <a class="nav-link" href="?r=user">
+                            <i class="nc-icon nc-circle-09"></i>
+                            <p>Gerenciar Usuários</p>
                         </a>
                     </li>
 
+                    <li>
+                        <a class="nav-link" href="?r=sale">
+                            <i class="nc-icon nc-money-coins"></i>
+                            <p>Registrar venda</p>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="nav-link" href="?r=stock">
+                            <i class="nc-icon nc-bag"></i>
+                            <p>Gerenciar estoque</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="?r=item">
+                            <i class="nc-icon nc-cart-simple"></i>
+                            <p>Gerenciar Produtos</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="./user.html">
+                            <i class="nc-icon nc-icon nc-paper-2"></i>
+                            <p>Relatório de vendas</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="./user.html">
+                            <i class="nc-icon nc-delivery-fast"></i>
+                            <p>Relatório de estoque</p>
+                        </a>
+                    </li>
+
+
+
                     <li class="nav-item active active-pro">
-                        <a class="nav-link active" href="javascript:;">
-                            <i class="nc-icon nc-alien-33"></i>
-                            <p>Upgrade plan</p>
+                        <a class="nav-link active" href="?r=request">
+                            <i class="nc-icon nc-bell-55"></i>
+                            <p>Listar Pedidos</p>
                         </a>
                     </li>
                 </ul>
@@ -107,6 +148,10 @@ PrincipalAsset::register($this);
             <!-- End Navbar -->
             <div class="content">
             <?= $content ?>
+            
+
+            
+
                 <div class="container-fluid">
                     <div class="section">
                     </div>

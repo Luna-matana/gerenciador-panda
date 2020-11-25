@@ -13,12 +13,13 @@ class PrincipalAsset extends AssetBundle
 
     public $css = [
         //'css/demo.css',
-        'css/light-bootstrap-dashboard.css?v=2.0.0',
+        'css/light-bootstrap-dashboard.css',
+        'css/menu.css',
         //'css/bootstrap.min.css'
     ];
     public $js = [
         //'js/demo.js',
-        'js/light-bootstrap-dashboard.js?v=2.0.0',
+        'js/light-bootstrap-dashboard.js',
         'js/core/jquery.3.2.1.min.js',
         'js/core/popper.min.js',
         'js/core/bootstrap.min.js',

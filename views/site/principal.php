@@ -1,1 +1,2 @@
-<h1>Tela do shop</h1>
+<h1>Bem-vindo
+</h1>

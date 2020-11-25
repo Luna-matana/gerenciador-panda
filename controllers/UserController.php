@@ -17,6 +17,7 @@ class UserController extends Controller
     /**
      * {@inheritdoc}
      */
+    public $layout = 'principal';
     public function behaviors()
     {
         return [
