@@ -15,6 +15,7 @@ class SiteController extends Controller
     /**
      * {@inheritdoc}
      */
+    public $layout = 'principal';
     public function behaviors()
     {
         return [
@@ -62,6 +63,11 @@ class SiteController extends Controller
     public function actionIndex()
     {
         return $this->render('index');
+    }
+
+    public function actionPrincipal(){
+        $this->layout = 'principal'; 
+        return $this->render('principal');
     }
 
     /**
