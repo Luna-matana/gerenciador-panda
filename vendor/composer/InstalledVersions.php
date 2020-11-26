@@ -215,12 +215,12 @@ private static $installed = array (
     ),
     'fakerphp/faker' => 
     array (
-      'pretty_version' => 'v1.11.0',
-      'version' => '1.11.0.0',
+      'pretty_version' => 'v1.12.0',
+      'version' => '1.12.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'f228dc5112bafc14c77d40a2acc0c48058e184b0',
+      'reference' => '9aa6c9e289860951e6b4d010c7a841802d015cd8',
     ),
     'guzzlehttp/psr7' => 
     array (
@@ -751,12 +751,12 @@ private static $installed = array (
     ),
     'yiisoft/yii2' => 
     array (
-      'pretty_version' => '2.0.39.2',
-      'version' => '2.0.39.2',
+      'pretty_version' => '2.0.39.3',
+      'version' => '2.0.39.3',
       'aliases' => 
       array (
       ),
-      'reference' => 'c1d88666f4fc4702af5d492e4c5c35353c9ac6ca',
+      'reference' => '7c3b93b57e568509a7cb5cef826d8c424a779f3f',
     ),
     'yiisoft/yii2-app-basic' => 
     array (
